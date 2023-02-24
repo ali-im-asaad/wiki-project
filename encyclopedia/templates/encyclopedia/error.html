@@ -1,0 +1,8 @@
+{% extends "encyclopedia/layout.html" %} {% block title %} Error! {%endblock%}
+{% block body %}
+<h1>
+  This page already exists! Here it is:
+  <a href="/wiki/{{ entry_title }}">click here</a>
+</h1>
+
+{% endblock %}
